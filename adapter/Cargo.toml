@@ -39,7 +39,7 @@ winapi = { version = "0.3.8", features = ["std", "wincon", "namedpipeapi"] }
 winreg = "0.6.2"
 
 [lib]
-crate-type = ["staticlib"]
+crate-type = ["dylib", "rlib"]
 
 [[bin]]
 name = "codelldb"
